@@ -1,0 +1,33 @@
+{
+    "required_api_version": "2",
+    "name": "Memos",
+    "description": "Ulauncher extension for usememos.com",
+    "developer_name": "Joe Kaiser",
+    "icon": "images/logo.png",
+    "options": {
+      "query_debounce": 1.5
+    },
+    "preferences": [
+        {
+            "id": "memos_kw",
+            "type": "keyword",
+            "name": "Memos",
+            "description": "Memos extension",
+            "default_value": "memos"
+          },
+          {
+            "id": "memos_",
+            "type": "input",
+            "name": "Memos URL",
+            "description": "Location of your memos instance (https://my.memos)",
+            "default_value": ""
+          },
+          {
+            "id": "memos_",
+            "type": "input",
+            "name": "API Token",
+            "description": "API token for your memos instance",
+            "default_value": ""
+          }
+    ]
+  }
